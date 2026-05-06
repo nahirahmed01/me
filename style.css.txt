@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0c0c0c;
+    color:#fff;
+}
+
+/* TOP BAR */
+.top-bar{
+    background:#ffd000;
+    color:#000;
+    text-align:center;
+    padding:8px;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#ffd000;
+}
+
+.logo span{
+    display:block;
+    font-size:12px;
+    color:#fff;
+}
+
+nav a{
+    margin:0 10px;
+    text-decoration:none;
+    color:#fff;
+}
+
+nav a:hover{
+    color:#ffd000;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    padding:50px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:40px;
+}
+
+.hero-text span{
+    color:#ffd000;
+}
+
+.hero-text p{
+    margin:20px 0;
+}
+
+.hero-text button{
+    background:#ffd000;
+    border:none;
+    padding:12px 20px;
+    cursor:pointer;
+}
+
+.hero-img img{
+    width:400px;
+    border-radius:10px;
+}
+
+/* CATEGORY */
+.category{
+    padding:40px;
+    text-align:center;
+}
+
+.cat-grid{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:15px;
+}
+
+.card{
+    border:1px solid #ffd000;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* PRODUCTS */
+.products{
+    padding:40px;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.product{
+    background:#111;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.product img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.product button{
+    margin-top:10px;
+    background:#ffd000;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+/* STORY */
+.story{
+    background:url('https://images.unsplash.com/photo-1509440159596-0249088772ff');
+    background-size:cover;
+    padding:80px;
+}
+
+.story-text{
+    max-width:400px;
+}
+
+/* FEATURES */
+.features{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+}
+
+/* FOOTER */
+footer{
+    background:#000;
+    padding:30px;
+}
+
+.footer-cols{
+    display:flex;
+    justify-content:space-between;
+}
+
+footer input{
+    padding:10px;
+    margin-top:10px;
+}
+
+footer button{
+    background:#ffd000;
+    border:none;
+    padding:10px;
+    margin-top:10px;
+}
+
+footer p{
+    margin-top:10px;
+}
